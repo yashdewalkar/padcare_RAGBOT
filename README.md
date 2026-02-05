@@ -29,11 +29,9 @@ All sources are public and listed in `sources.yml`. Example sources:
 ```bash
 ollama pull mistral
 
+
 ## System Architecture
+<img src="assets/rag_architecture.png" width="800"/>
 
-![RAG Architecture](assets/rag_architecture.png)
-
-
-## streamlit UI
-
-![padcare gpt UI](assets/Padcare_gpt.png)
+## Streamlit UI
+<img src="assets/PadCare_gpt.png" width="800"/>
