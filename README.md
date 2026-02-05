@@ -23,15 +23,20 @@ All sources are public and listed in `sources.yml`. Example sources:
 - Vector DB: **FAISS**
 - UI: **Streamlit**
 - Language: Python
+## Limitations
+### 
+-Responses may have higher latency since the LLM runs locally on CPU without hardware acceleration.
+
+-The model is not fine-tuned on PadCare-specific data and depends entirely on retrieval quality.
+
+-There is no formal evaluation framework or automated accuracy metrics.
+## System Architecture
+<img src="assets/rag_architecture.png" width="800"/>
+
+## Streamlit UI
+<img src="assets/PadCare_gpt.png" width="800"/> 
 
 ## Run locally (Windows)
 ### 1) Install Ollama + pull Mistral
 ```bash
 ollama pull mistral
-
-
-## System Architecture
-<img src="assets/rag_architecture.png" width="800"/>
-
-## Streamlit UI
-<img src="assets/PadCare_gpt.png" width="800"/>
